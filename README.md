@@ -1,2 +1,1 @@
-# json2Java
-Json to Java using Maven
+Este es un proyecto Maven que **genera automáticamente clases Java a partir de esquemas JSON** utilizando el plugin `jsonschema2pojo`. El proyecto incluye dos esquemas de ejemplo (Employee y Department) ubicados en `src/main/resources/schemas/` que definen estructuras de datos simples con propiedades como id y nombre. Durante el proceso de compilación de Maven, el plugin convierte estos esquemas JSON en clases Java (POJOs) con anotaciones de Jackson (@JsonProperty, @JsonInclude, etc.) en el paquete `org.example.json2java`, facilitando la serialización y deserialización de objetos JSON en aplicaciones Java sin necesidad de escribir manualmente las clases modelo.
